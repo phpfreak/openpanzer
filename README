@@ -78,10 +78,10 @@ Source code structure description:
 
 Development notes:
 
-OpenPanzer doesn't use any extra javascript libraries (like jquery, node etc), and should be kept like this.
+OpenPanzer doesn't use any extra javascript libraries (like jquery, node etc) and should be kept like this.
 Styling DOM elements should be done in their CSS files. Adding style for static elements in the code shouldn't exist.
-All positioning of DOM elements should be done in CSS files. Bottom line: if something can be done in a css file 
-then there it should go not in the javascript code.
+All positioning of DOM elements should be done in CSS files. 
+Bottom line: if something can be done in a css file do not do it in the javascript code.
 Code additions should follow the coding style used so far (for object creation etc).
 
 Main testing is done on Google Chrome and Firefox under Linux.
